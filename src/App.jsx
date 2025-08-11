@@ -77,7 +77,7 @@ function App() {
           <Player initialName="Player 2" symbol="O" isActive={activePlayer === 'O'} onNameChange={handlePlayerNamechange} />
 
         </ol>
-      console.log("Or btao git add hui kya!")
+     
         {(winner || hasDraw) && <GameOver winner={winner} onRestart={handleRestart} />}
 
         <GameBoard onSelect={handleSelectSquare} board={gameBoard} />
